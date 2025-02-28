@@ -1,0 +1,48 @@
+.addBlogContainer {
+  max-width: 600px;
+  margin: auto;
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+  font-size: 24px;
+  text-align: center;
+}
+
+.label {
+  font-weight: bold;
+  margin-top: 10px;
+  display: block;
+}
+
+.input, .textarea, .select {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.dropZone {
+  border: 2px dashed #ccc;
+  text-align: center;
+  padding: 20px;
+  cursor: pointer;
+}
+
+.dropZone.dragOver {
+  border-color: blue;
+}
+
+.submitButton {
+  background-color: blue;
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-top: 10px;
+}
