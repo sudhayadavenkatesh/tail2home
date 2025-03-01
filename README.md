@@ -6,7 +6,7 @@ Tail2Home is a website where users can either give a pet up for adoption or adop
 ## Introduction
 Tail2Home connects pet lovers with pets in need of a home. This platform simplifies pet adoption with a user-friendly experience, now with enhanced security and functionality.
 
-## New Features (V2.0)
+## New Features 
  - JWT Authentication: Users are securely authenticated with JSON Web Tokens (JWT).
  - OTP Verification: Added extra security for users with one-time password (OTP) verification.
  - User Profiles: Each user now has a personalized profile where they can manage their information.
@@ -22,6 +22,9 @@ Tail2Home connects pet lovers with pets in need of a home. This platform simplif
 - User can browse and search for available pets for adoption.
 - They can filter pets based on pet type i.e. dog, cat.
 - Tail2Home offer detailed pet profiles with photos and descriptions.
+- Tail2Home also offers blog section in which admin upload blogs stating the blog awareness.
+- Users can only view the blogs
+- Admin can manage the blogs section from admin panel
 
 ## Technology Stack
 Tail2Home is built using the MERN stack (MongoDB, Express.js, React, Node.js) with added JWT authentication and OTP verification.
